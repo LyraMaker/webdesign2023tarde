@@ -1,0 +1,22 @@
+*{ /** Seletor universal **/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho-topo{
+    background:aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+
+#cabecalho-topo h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#corpo-site{
+    min-height: 600px;
+    width: 75%;
+    background-color: turquoise;
+}
