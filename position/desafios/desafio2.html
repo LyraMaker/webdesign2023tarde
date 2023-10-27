@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div {
+            height: 250px;
+            width: 250px;
+        }
+
+        .esquerda {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: red;
+        }
+
+        .direita {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: pink;
+        }
+
+        .meio {
+            background-color: rgb(113, 255, 255);
+            position: absolute;
+            top:50%;
+            left: 50%;
+
+            margin-left: -125px;
+            margin-top: -125px;
+            
+        }
+        .esquerda div{
+            position: relative;
+            top:50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+
+            background-color: blueviolet;
+            margin-left:-75px;
+            margin-top:-75px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="esquerda">
+        <div></div>
+    </div>
+    <div class="direita"></div>
+    <div class="meio"></div>
+</body>
+
+</html>
