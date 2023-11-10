@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+ 
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="nome">Digite o seu nome:</label>
+            <input type="text" id="nome" placeholder="Digite nome completo" required>
+        </div>
+        <div>
+        <label for="nascimento">Data de nascimento: </label><input type="date">
+    </div>
+    <div>
+        <label for="sexo">Qual é o seu sexo?</label>
+        <span>
+            <input type="radio" name="sexo"><label>Masculino</label>
+        </span>
+        <span>
+            <input type="radio" name="sexo"><label>Feminino</label>
+        </span>
+        <span>
+            <input type="radio" name="sexo"><label>Prefiro não responder</label>
+        </span>
+    </div>
+    <div>
+        <label for="contrato">Qual é a sua forma de contrato?</label>
+        <span>
+            <input type="checkbox" name="contrato"><label>PJ</label>
+        </span>
+        <span>
+            <input type="checkbox" name="contrato"><label>CLT</label>
+        </span>
+        <span>
+            <input type="checkbox" name="contrato"><label>Freelancer</label>
+        </span>
+    </div>
+    <div>
+        <label for="mensagem">Digite sua mensagem:</label>
+        <textarea id="mensagem" cols="30" rows="10" minlength="10"></textarea>
+    </div>
+    <input type="submit" value="Enviar mensagem! 😁">
+    </form>
+</body>
+
+</html>
