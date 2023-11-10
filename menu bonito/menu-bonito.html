@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #menu{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+        #menu li{
+            transition: 50s all;
+            padding-left:10px;
+            text-transform: uppercase;
+            background: aquamarine;
+            width: fit-content; /* A largura vai ser definida pelo conteúdo do bloco*/
+           padding: 10px;
+           border-radius: 10px;
+           margin-left: 10px;
+        }
+
+        #menu li:hover{
+            transition: 0.5s all;
+            transform: scale(4) rotate(100000000000000deg) skew(20deg,20deg); 
+            background: red;
+
+        }
+      
+    </style>
+</head>
+<body>
+    <nav>
+      <ul id="menu">
+        <li><a>Principal</a></li>
+        <li><a>Galeria</a></li>
+        <li><a>Sobre</a></li>
+      </ul>  
+    </nav>
+</body>
+</html>
